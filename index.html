@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Mad-Libs</title>
+    <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+       
+        <h1 id="central-heading">Mad Libs</h1>
+        <div id="main">
+        <div id="first-game" class="themes">
+           
+            <h3 class="theme-title">Shakespeare theme   </h3>
+                
+                <input type="text"  class="noun" id="noun1" placeholder="noun"></br>
+                <input type="text" class="adjective" id="adj1" placeholder="adjective"></br>
+                <input type="text" class="name" id="name1" placeholder="name"></br>
+                
+                <button type="submit" onclick="printResult1(document.getElementById('noun1').value, document.getElementById('adj1').value, document.getElementById('name1').value)" class="button">See the results !!</button>    
+        </div>
+        <div id="sec-game" class="themes">
+            <h3 class="theme-title">Marvel theme  </h3>
+            
+                <input type="text" class="noun" id="noun2" placeholder="noun"></br>
+                <input type="text" class="adjective" id="adj2" placeholder="adjective"></br>
+                <input type="text" class="name" id="name2" placeholder="name"></br>
+            
+            <button type="submit" onclick="printResult2(document.getElementById('noun2').value, document.getElementById('adj2').value, document.getElementById('name2').value)" class="button">See the results !!</button>
+        </div>
+        <div id="third-game" class="themes">
+            <h3 class="theme-title">DC universe theme</h3>
+            
+                <input type="text" class="noun" id="noun3" placeholder="noun"></br>
+                <input type="text" class="adjective" id="adj3" placeholder="adjective"></br>
+                <input type="text" class="name" id="name3" placeholder="name"></br>
+            
+                <button type="submit" onclick="printResult3(document.getElementById('noun3').value, document.getElementById('adj3').value, document.getElementById('name3').value)" class="button">See the results !!</button>
+
+    </div>
+    <script src="./index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+body{
+    background: url(https://s2.qwant.com/thumbr/0x380/e/b/cd48d7a5ed745846a952fd59e2dda2e38522df5e3e0fbe42a647ae538a6a0b/875342-best-cool-cute-backgrounds-1080x1920.jpg?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2Fa%2Fb%2F4%2F875342-best-cool-cute-backgrounds-1080x1920.jpg&q=0&b=1&p=0&a=1);
+    height: fit-content;
+    margin: auto;
+}
+
+#central-heading
+{
+    font-style: normal;
+    font-family: 'Henny Penny', sans-serif;
+    text-align: center;
+    text-decoration: wavy;
+}
+
+.themes {
+    margin: 50px;
+    display: inline-block;
+    box-shadow: 2px;
+    border: 2px solid #000;
+    padding: 35px;
+    padding-top: 15px !important;
+    backdrop-filter: blur(20px);
+   
+
+}
+#main
+{
+    text-align: center;
+}
+
+.theme-title{
+    font-family: 'Patrick Hand', sans-serif;
+    text-align: justify;
+    font-size: 35px;
+
+}
+
+.noun, .adjective, .name {
+    margin-bottom: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+.noun:hover, .adjective:hover, .name:hover{
+    background-color: #EEE8CD;
+}
+
+.button {
+    font-family: 'Luckiest Guy', sans-serif;
+    border-radius: 5px;
+    padding: 2px;
+    backdrop-filter: blur(5px);
+}
+#result1{
+    display: none;
+}
